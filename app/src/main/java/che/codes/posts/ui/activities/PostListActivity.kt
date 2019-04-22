@@ -33,7 +33,7 @@ class PostListActivity : AppCompatActivity() {
         window.setFlags(FLAG_FULLSCREEN, FLAG_FULLSCREEN)
         setContentView(R.layout.activity_post_list)
 
-        (application as PostsApplication).component.inject(this)
+        PostsApplication.instance.component.inject(this)
 
         postList = findViewById<RecyclerView>(R.id.post_list).apply {
             setHasFixedSize(true)

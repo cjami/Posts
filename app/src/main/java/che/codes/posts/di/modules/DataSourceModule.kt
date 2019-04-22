@@ -2,6 +2,7 @@ package che.codes.posts.di.modules
 
 import che.codes.posts.data.PostsDataSource
 import che.codes.posts.data.jsonplaceholder.JpPostsDataSource
+import che.codes.posts.data.jsonplaceholder.JpPostsDummyService
 import che.codes.posts.data.jsonplaceholder.JpPostsService
 import dagger.Module
 import dagger.Provides
@@ -24,5 +25,6 @@ open class DataSourceModule {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
         return JpPostsDataSource(retrofit.create(JpPostsService::class.java))
+//        return JpPostsDataSource(JpPostsDummyService())
     }
 }

@@ -33,7 +33,7 @@ class PostDetailsActivity : AppCompatActivity() {
         window.setFlags(FLAG_FULLSCREEN, FLAG_FULLSCREEN)
         setContentView(R.layout.activity_post_details)
 
-        (application as PostsApplication).component.inject(this)
+        PostsApplication.instance.component.inject(this)
 
         val post: Post? = intent.extras[POST_KEY] as Post?
 
