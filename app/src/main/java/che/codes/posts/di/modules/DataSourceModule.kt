@@ -25,6 +25,5 @@ open class DataSourceModule {
             .addConverterFactory(GsonConverterFactory.create())
             .build()
         return JpPostsDataSource(retrofit.create(JpPostsService::class.java))
-//        return JpPostsDataSource(JpPostsDummyService())
     }
 }
