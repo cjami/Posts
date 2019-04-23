@@ -8,3 +8,4 @@ It is written in Kotlin, and is test-driven, making use of JUnit, Mockito, and E
 | --- | --- |
 |![Screenshot1](/screenshots/1.png)|![Screenshot2](/screenshots/2.png)
 
+Font used is from https://www.dafont.com/old-newspaper-font.font by Martin Steiner under a Free for Personal Use license.
