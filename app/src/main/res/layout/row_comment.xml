@@ -30,8 +30,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:padding="10dp"
-                android:textStyle="italic"
                 android:layout_toLeftOf="@id/author_image"
-                app:fontFamily="@font/old_newspaper_font"/>
+                style="@style/CommentBodyText"/>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

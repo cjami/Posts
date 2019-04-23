@@ -9,4 +9,18 @@
         <item name="android:navigationBarColor" tools:targetApi="21">@color/colorAccent</item>
     </style>
 
+    <style name="NormalText">
+        <item name="fontFamily">@font/old_newspaper_font</item>
+    </style>
+
+    <style name="BodyText" parent="NormalText"/>
+
+    <style name="TitleText" parent="NormalText">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="CommentBodyText" parent="NormalText">
+        <item name="android:textStyle">italic</item>
+    </style>
+
 </resources>
