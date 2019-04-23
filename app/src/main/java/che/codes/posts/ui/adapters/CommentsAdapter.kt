@@ -10,7 +10,11 @@ import che.codes.posts.data.models.Post
 import che.codes.posts.ui.util.AvatarLoader
 import com.mikhaellopez.hfrecyclerviewkotlin.HFRecyclerView
 import kotlinx.android.synthetic.main.activity_post_list.view.*
+import kotlinx.android.synthetic.main.header_post_details.view.*
 import kotlinx.android.synthetic.main.row_post.view.*
+import kotlinx.android.synthetic.main.row_post.view.author_image
+import kotlinx.android.synthetic.main.row_post.view.body
+import kotlinx.android.synthetic.main.row_post.view.title
 
 class CommentsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Comment>(true, true) {
 
@@ -42,6 +46,7 @@ class CommentsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Commen
             fun bind(post: Post?) {
                 view.title.text = post?.title
                 view.body.text = post?.body
+                view.author_username.text = post?.user?.username?.toUpperCase()
 
                 AvatarLoader(post?.user?.email, view.author_image, baseAvatarUrl).load()
             }

@@ -56,6 +56,35 @@ class PostDetailsActivityTest {
 
         onView(withText(testPost.title)).check(matches(isDisplayed()))
         onView(withText(testPost.body)).check(matches(isDisplayed()))
+        onView(withText(testPost.user.username.toUpperCase())).check(matches(isDisplayed()))
+    }
+
+    @Test
+    fun afterFetchingComments_onSuccess_postDetailsDisplayed() {
+        success()
+        registerObserverIdling()
+
+        activityRule.launchActivity(createPostIntent())
+
+        onView(withText(testPost.title)).check(matches(isDisplayed()))
+        onView(withText(testPost.body)).check(matches(isDisplayed()))
+        onView(withText(testPost.user.username.toUpperCase())).check(matches(isDisplayed()))
+
+        unregisterObserverIdling()
+    }
+
+    @Test
+    fun afterFetchingComments_onError_postDetailsDisplayed() {
+        error()
+        registerObserverIdling()
+
+        activityRule.launchActivity(createPostIntent())
+
+        onView(withText(testPost.title)).check(matches(isDisplayed()))
+        onView(withText(testPost.body)).check(matches(isDisplayed()))
+        onView(withText(testPost.user.username.toUpperCase())).check(matches(isDisplayed()))
+
+        unregisterObserverIdling()
     }
 
     @Test
@@ -85,32 +114,6 @@ class PostDetailsActivityTest {
         activityRule.launchActivity(createPostIntent())
 
         onView(withText(R.string.error)).check(matches(isDisplayed()))
-
-        unregisterObserverIdling()
-    }
-
-    @Test
-    fun afterFetchingComments_onSuccess_postDetailsDisplayed() {
-        success()
-        registerObserverIdling()
-
-        activityRule.launchActivity(createPostIntent())
-
-        onView(withText(testPost.title)).check(matches(isDisplayed()))
-        onView(withText(testPost.body)).check(matches(isDisplayed()))
-
-        unregisterObserverIdling()
-    }
-
-    @Test
-    fun afterFetchingComments_onError_postDetailsDisplayed() {
-        error()
-        registerObserverIdling()
-
-        activityRule.launchActivity(createPostIntent())
-
-        onView(withText(testPost.title)).check(matches(isDisplayed()))
-        onView(withText(testPost.body)).check(matches(isDisplayed()))
 
         unregisterObserverIdling()
     }
