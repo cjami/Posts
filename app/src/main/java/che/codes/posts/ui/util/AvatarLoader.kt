@@ -1,6 +1,5 @@
 package che.codes.posts.ui.util
 
-import android.view.Gravity
 import android.widget.ImageView
 import che.codes.posts.R
 import com.squareup.picasso.Picasso

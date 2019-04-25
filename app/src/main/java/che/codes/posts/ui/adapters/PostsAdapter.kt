@@ -11,10 +11,6 @@ import che.codes.posts.ui.activities.POST_KEY
 import che.codes.posts.ui.activities.PostDetailsActivity
 import che.codes.posts.ui.util.AvatarLoader
 import com.mikhaellopez.hfrecyclerviewkotlin.HFRecyclerView
-import com.squareup.picasso.Picasso
-import jp.wasabeef.picasso.transformations.GrayscaleTransformation
-import jp.wasabeef.picasso.transformations.RoundedCornersTransformation
-import jp.wasabeef.picasso.transformations.gpu.VignetteFilterTransformation
 import kotlinx.android.synthetic.main.row_post.view.*
 
 class PostsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Post>(true, false) {
