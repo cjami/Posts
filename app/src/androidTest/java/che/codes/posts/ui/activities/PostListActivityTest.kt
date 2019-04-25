@@ -1,13 +1,19 @@
 package che.codes.posts.ui.activities
 
+import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso.onView
 import androidx.test.espresso.IdlingRegistry
 import androidx.test.espresso.IdlingResource
+import androidx.test.espresso.action.ViewActions.click
 import androidx.test.espresso.assertion.ViewAssertions.matches
+import androidx.test.espresso.contrib.RecyclerViewActions.actionOnItemAtPosition
+import androidx.test.espresso.intent.Intents.intended
+import androidx.test.espresso.intent.matcher.IntentMatchers.hasComponent
+import androidx.test.espresso.intent.matcher.IntentMatchers.hasExtraWithKey
+import androidx.test.espresso.intent.rule.IntentsTestRule
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import androidx.test.rule.ActivityTestRule
 import che.codes.posts.PostsApplication
 import che.codes.posts.R
 import che.codes.posts.ui.util.DaggerTestAppComponent
@@ -17,6 +23,7 @@ import com.squareup.rx2.idler.Rx2Idler
 import io.reactivex.android.schedulers.AndroidSchedulers
 import okhttp3.mockwebserver.MockResponse
 import okhttp3.mockwebserver.MockWebServer
+import org.hamcrest.CoreMatchers.allOf
 import org.hamcrest.CoreMatchers.not
 import org.junit.After
 import org.junit.Before
@@ -28,7 +35,7 @@ import org.junit.runner.RunWith
 class PostListActivityTest {
 
     @get:Rule
-    val activityRule = ActivityTestRule(PostListActivity::class.java, false, false)
+    val activityRule = IntentsTestRule(PostListActivity::class.java, false, false)
 
     private lateinit var mockServer: MockWebServer
     private lateinit var observerIdling: IdlingResource
@@ -76,7 +83,7 @@ class PostListActivityTest {
     }
 
     @Test
-    fun afterFetching_onSuccess_errorTextNotDisplayed() {
+    fun afterFetching_onSuccess_statusTextNotDisplayed() {
         success()
         registerObserverIdling()
 
@@ -108,6 +115,20 @@ class PostListActivityTest {
 
         onView(withId(R.id.status_text)).check(matches(isDisplayed()))
         onView(withId(R.id.status_text)).check(matches(withText(R.string.error)))
+
+        unregisterObserverIdling()
+    }
+
+    @Test
+    fun itemClicked_postDetailsLaunched() {
+        success()
+        registerObserverIdling()
+
+        activityRule.launchActivity(null)
+
+        onView(withId(R.id.post_list)).perform(actionOnItemAtPosition<RecyclerView.ViewHolder>(1, click()))
+
+        intended(allOf(hasExtraWithKey(POST_KEY), hasComponent(PostDetailsActivity::class.java.name)))
 
         unregisterObserverIdling()
     }
