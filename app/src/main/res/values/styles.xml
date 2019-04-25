@@ -23,4 +23,12 @@
         <item name="android:textStyle">italic</item>
     </style>
 
+    <style name="CardRow">
+        <item name="android:layout_marginLeft">20dp</item>
+        <item name="android:layout_marginRight">20dp</item>
+        <item name="android:layout_marginTop">8dp</item>
+        <item name="android:layout_marginBottom">5dp</item>
+        <item name="cardElevation">6dp</item>
+    </style>
+
 </resources>
