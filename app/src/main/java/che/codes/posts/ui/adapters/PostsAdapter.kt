@@ -1,25 +1,34 @@
 package che.codes.posts.ui.adapters
 
-import android.content.Intent
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import che.codes.posts.R
 import che.codes.posts.data.models.Post
-import che.codes.posts.ui.activities.POST_KEY
-import che.codes.posts.ui.activities.PostDetailsActivity
+import che.codes.posts.ui.adapters.PostsAdapter.ViewHolder.HeaderViewHolder
+import che.codes.posts.ui.adapters.PostsAdapter.ViewHolder.ItemViewHolder
 import che.codes.posts.ui.util.AvatarLoader
 import com.mikhaellopez.hfrecyclerviewkotlin.HFRecyclerView
+import io.reactivex.Observable
+import io.reactivex.Observer
+import io.reactivex.subjects.PublishSubject
 import kotlinx.android.synthetic.main.row_post.view.*
 
 class PostsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Post>(true, false) {
 
+    private val clickSubject = PublishSubject.create<Post>()
+    val clickEvent: Observable<Post> = clickSubject
+
     sealed class ViewHolder(view: View) : RecyclerView.ViewHolder(view) {
 
-        class ItemViewHolder(private val view: View, private val baseAvatarUrl: String) : ViewHolder(view),
+        class ItemViewHolder(
+            private val view: View,
+            private val baseAvatarUrl: String,
+            private val clickObserver: Observer<Post>
+        ) : ViewHolder(view),
             View.OnClickListener {
-            private var post: Post? = null
+            private lateinit var post: Post
 
             init {
                 view.setOnClickListener(this)
@@ -35,10 +44,7 @@ class PostsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Post>(tru
             }
 
             override fun onClick(v: View?) {
-                val context = v?.context
-                val intent = Intent(context, PostDetailsActivity::class.java)
-                intent.putExtra(POST_KEY, post)
-                context?.startActivity(intent)
+                clickObserver.onNext(post)
             }
         }
 
@@ -47,12 +53,12 @@ class PostsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Post>(tru
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, position: Int) {
         when (holder) {
-            is ViewHolder.ItemViewHolder -> holder.bind(getItem(position))
+            is ItemViewHolder -> holder.bind(getItem(position))
         }
     }
 
     override fun getHeaderView(inflater: LayoutInflater, parent: ViewGroup): RecyclerView.ViewHolder? {
-        return ViewHolder.HeaderViewHolder(inflater.inflate(R.layout.header_post_list, parent, false))
+        return HeaderViewHolder(inflater.inflate(R.layout.header_post_list, parent, false))
     }
 
     override fun getFooterView(inflater: LayoutInflater, parent: ViewGroup): RecyclerView.ViewHolder? {
@@ -60,6 +66,6 @@ class PostsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Post>(tru
     }
 
     override fun getItemView(inflater: LayoutInflater, parent: ViewGroup): RecyclerView.ViewHolder {
-        return ViewHolder.ItemViewHolder(inflater.inflate(R.layout.row_post, parent, false), baseAvatarUrl)
+        return ItemViewHolder(inflater.inflate(R.layout.row_post, parent, false), baseAvatarUrl, clickSubject)
     }
 }
