@@ -22,8 +22,6 @@ import org.junit.rules.ExpectedException
 import java.lang.IllegalStateException
 
 
-const val POST = "POST"
-
 class PostDetailsViewModelTest {
     private lateinit var sut: PostDetailsViewModel
     private val dataSourceMock: PostsDataSource = mock()

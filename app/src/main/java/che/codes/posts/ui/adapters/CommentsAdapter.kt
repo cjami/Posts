@@ -11,7 +11,6 @@ import che.codes.posts.ui.util.AvatarLoader
 import com.mikhaellopez.hfrecyclerviewkotlin.HFRecyclerView
 import kotlinx.android.synthetic.main.activity_post_list.view.*
 import kotlinx.android.synthetic.main.header_post_details.view.*
-import kotlinx.android.synthetic.main.row_post.view.*
 import kotlinx.android.synthetic.main.row_post.view.author_image
 import kotlinx.android.synthetic.main.row_post.view.body
 import kotlinx.android.synthetic.main.row_post.view.title

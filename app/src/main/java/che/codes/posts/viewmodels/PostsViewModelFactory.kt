@@ -3,7 +3,6 @@ package che.codes.posts.viewmodels
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
 import che.codes.posts.data.PostsDataSource
-import javax.inject.Inject
 
 class PostsViewModelFactory(private val dataSource: PostsDataSource) : ViewModelProvider.Factory {
 

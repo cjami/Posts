@@ -2,7 +2,6 @@ package che.codes.posts.di.modules
 
 import che.codes.posts.data.PostsDataSource
 import che.codes.posts.data.jsonplaceholder.JpPostsDataSource
-import che.codes.posts.data.jsonplaceholder.JpPostsDummyService
 import che.codes.posts.data.jsonplaceholder.JpPostsService
 import dagger.Module
 import dagger.Provides
