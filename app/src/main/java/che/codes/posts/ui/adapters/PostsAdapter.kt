@@ -40,7 +40,7 @@ class PostsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Post>(tru
                 view.title.text = post.title
                 view.body.text = post.body
 
-                AvatarLoader(post.user.email, view.author_image, baseAvatarUrl).load()
+                AvatarLoader.load(post.user.email, view.author_image, baseAvatarUrl)
             }
 
             override fun onClick(v: View?) {

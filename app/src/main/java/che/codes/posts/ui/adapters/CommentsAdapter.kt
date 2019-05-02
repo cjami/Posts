@@ -35,7 +35,7 @@ class CommentsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Commen
             fun bind(comment: Comment) {
                 view.body.text = comment.body
 
-                AvatarLoader(comment.email, view.author_image, baseAvatarUrl).load()
+                AvatarLoader.load(comment.email, view.author_image, baseAvatarUrl)
             }
         }
 
@@ -47,7 +47,7 @@ class CommentsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Commen
                 view.body.text = post?.body
                 view.author_username.text = post?.user?.username?.toUpperCase()
 
-                AvatarLoader(post?.user?.email, view.author_image, baseAvatarUrl).load()
+                AvatarLoader.load(post?.user?.email, view.author_image, baseAvatarUrl)
             }
         }
 
