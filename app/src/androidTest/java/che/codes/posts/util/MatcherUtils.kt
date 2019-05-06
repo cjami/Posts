@@ -1,4 +1,4 @@
-package che.codes.posts.ui.util
+package che.codes.posts.util
 
 import android.view.View
 import androidx.recyclerview.widget.RecyclerView

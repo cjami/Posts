@@ -1,10 +1,10 @@
-package che.codes.posts.ui.util
+package che.codes.posts.util
 
-import che.codes.posts.di.components.AppComponent
-import che.codes.posts.di.modules.AdapterModule
-import che.codes.posts.di.modules.DataSourceModule
-import che.codes.posts.di.modules.NetworkModule
-import che.codes.posts.di.modules.ViewModelFactoryModule
+import che.codes.posts.core.di.components.AppComponent
+import che.codes.posts.core.di.modules.AdapterModule
+import che.codes.posts.core.di.modules.DataSourceModule
+import che.codes.posts.core.di.modules.NetworkModule
+import che.codes.posts.core.di.modules.ViewModelFactoryModule
 import dagger.Component
 import javax.inject.Singleton
 

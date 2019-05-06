@@ -1,8 +1,8 @@
-package che.codes.posts
+package che.codes.posts.core
 
 import android.app.Application
-import che.codes.posts.di.components.AppComponent
-import che.codes.posts.di.components.DaggerAppComponent
+import che.codes.posts.core.di.components.AppComponent
+import che.codes.posts.core.di.components.DaggerAppComponent
 
 class PostsApplication : Application() {
     companion object {

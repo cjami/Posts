@@ -1,13 +1,13 @@
-package che.codes.posts.ui.adapters
+package che.codes.posts.features.details
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import che.codes.posts.R
-import che.codes.posts.data.models.Comment
-import che.codes.posts.data.models.Post
-import che.codes.posts.ui.util.AvatarLoader
+import che.codes.posts.core.data.models.Comment
+import che.codes.posts.core.data.models.Post
+import che.codes.posts.util.AvatarLoader
 import com.mikhaellopez.hfrecyclerviewkotlin.HFRecyclerView
 import kotlinx.android.synthetic.main.activity_post_list.view.*
 import kotlinx.android.synthetic.main.header_post_details.view.*
@@ -68,14 +68,32 @@ class CommentsAdapter(private val baseAvatarUrl: String) : HFRecyclerView<Commen
     }
 
     override fun getHeaderView(inflater: LayoutInflater, parent: ViewGroup): RecyclerView.ViewHolder? {
-        return ViewHolder.HeaderViewHolder(inflater.inflate(R.layout.header_post_details, parent, false), baseAvatarUrl)
+        return ViewHolder.HeaderViewHolder(
+            inflater.inflate(
+                R.layout.header_post_details,
+                parent,
+                false
+            ), baseAvatarUrl
+        )
     }
 
     override fun getFooterView(inflater: LayoutInflater, parent: ViewGroup): RecyclerView.ViewHolder? {
-        return ViewHolder.FooterViewHolder(inflater.inflate(R.layout.footer_post_details, parent, false))
+        return ViewHolder.FooterViewHolder(
+            inflater.inflate(
+                R.layout.footer_post_details,
+                parent,
+                false
+            )
+        )
     }
 
     override fun getItemView(inflater: LayoutInflater, parent: ViewGroup): RecyclerView.ViewHolder {
-        return ViewHolder.ItemViewHolder(inflater.inflate(R.layout.row_comment, parent, false), baseAvatarUrl)
+        return ViewHolder.ItemViewHolder(
+            inflater.inflate(
+                R.layout.row_comment,
+                parent,
+                false
+            ), baseAvatarUrl
+        )
     }
 }

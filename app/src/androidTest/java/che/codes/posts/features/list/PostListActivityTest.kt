@@ -1,4 +1,4 @@
-package che.codes.posts.ui.activities
+package che.codes.posts.features.list
 
 import androidx.recyclerview.widget.RecyclerView
 import androidx.test.espresso.Espresso.onView
@@ -14,11 +14,13 @@ import androidx.test.espresso.intent.rule.IntentsTestRule
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import che.codes.posts.PostsApplication
+import che.codes.posts.core.PostsApplication
 import che.codes.posts.R
-import che.codes.posts.ui.util.DaggerTestAppComponent
-import che.codes.posts.ui.util.MatcherUtils.Companion.hasRecyclerItemCount
-import che.codes.posts.ui.util.TestPropertyModule
+import che.codes.posts.features.details.POST_KEY
+import che.codes.posts.features.details.PostDetailsActivity
+import che.codes.posts.util.DaggerTestAppComponent
+import che.codes.posts.util.MatcherUtils.Companion.hasRecyclerItemCount
+import che.codes.posts.util.TestPropertyModule
 import com.squareup.rx2.idler.Rx2Idler
 import io.reactivex.android.schedulers.AndroidSchedulers
 import okhttp3.mockwebserver.MockResponse

@@ -1,4 +1,4 @@
-package che.codes.posts.ui.activities
+package che.codes.posts.features.details
 
 import android.os.Bundle
 import android.view.WindowManager.LayoutParams.FLAG_FULLSCREEN
@@ -7,13 +7,11 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import che.codes.posts.PostsApplication
+import che.codes.posts.core.PostsApplication
 import che.codes.posts.R
-import che.codes.posts.data.models.Post
-import che.codes.posts.ui.adapters.CommentsAdapter
-import che.codes.posts.viewmodels.PostDetailsViewModel
-import che.codes.posts.viewmodels.PostDetailsViewModel.FetchResult
-import che.codes.posts.viewmodels.PostsViewModelFactory
+import che.codes.posts.core.data.models.Post
+import che.codes.posts.features.details.PostDetailsViewModel.FetchResult
+import che.codes.posts.core.ui.PostsViewModelFactory
 import javax.inject.Inject
 
 const val POST_KEY = "POST_KEY"

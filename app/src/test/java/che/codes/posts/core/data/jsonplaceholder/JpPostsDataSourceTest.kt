@@ -1,8 +1,8 @@
-package che.codes.posts.data.jsonplaceholder
+package che.codes.posts.core.data.jsonplaceholder
 
-import che.codes.posts.data.jsonplaceholder.models.JpComment
-import che.codes.posts.data.jsonplaceholder.models.JpPost
-import che.codes.posts.data.jsonplaceholder.models.JpUser
+import che.codes.posts.core.data.jsonplaceholder.models.JpComment
+import che.codes.posts.core.data.jsonplaceholder.models.JpPost
+import che.codes.posts.core.data.jsonplaceholder.models.JpUser
 import com.google.gson.Gson
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.mock

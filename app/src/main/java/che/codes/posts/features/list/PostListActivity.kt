@@ -1,4 +1,4 @@
-package che.codes.posts.ui.activities
+package che.codes.posts.features.list
 
 import android.content.Intent
 import android.os.Bundle
@@ -10,13 +10,13 @@ import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProviders
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
-import che.codes.posts.PostsApplication
+import che.codes.posts.core.PostsApplication
 import che.codes.posts.R
-import che.codes.posts.data.models.Post
-import che.codes.posts.ui.adapters.PostsAdapter
-import che.codes.posts.viewmodels.PostListViewModel
-import che.codes.posts.viewmodels.PostListViewModel.FetchResult
-import che.codes.posts.viewmodels.PostsViewModelFactory
+import che.codes.posts.core.data.models.Post
+import che.codes.posts.features.details.POST_KEY
+import che.codes.posts.features.details.PostDetailsActivity
+import che.codes.posts.features.list.PostListViewModel.FetchResult
+import che.codes.posts.core.ui.PostsViewModelFactory
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 

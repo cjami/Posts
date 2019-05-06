@@ -1,8 +1,10 @@
-package che.codes.posts.viewmodels
+package che.codes.posts.core.ui
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider
-import che.codes.posts.data.PostsDataSource
+import che.codes.posts.core.data.PostsDataSource
+import che.codes.posts.features.details.PostDetailsViewModel
+import che.codes.posts.features.list.PostListViewModel
 
 class PostsViewModelFactory(private val dataSource: PostsDataSource) : ViewModelProvider.Factory {
 

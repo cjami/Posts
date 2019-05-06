@@ -1,14 +1,14 @@
-package che.codes.posts.ui.adapters
+package che.codes.posts.features.list
 
 import android.view.LayoutInflater
 import android.view.View
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import che.codes.posts.R
-import che.codes.posts.data.models.Post
-import che.codes.posts.ui.adapters.PostsAdapter.ViewHolder.HeaderViewHolder
-import che.codes.posts.ui.adapters.PostsAdapter.ViewHolder.ItemViewHolder
-import che.codes.posts.ui.util.AvatarLoader
+import che.codes.posts.core.data.models.Post
+import che.codes.posts.features.list.PostsAdapter.ViewHolder.HeaderViewHolder
+import che.codes.posts.features.list.PostsAdapter.ViewHolder.ItemViewHolder
+import che.codes.posts.util.AvatarLoader
 import com.mikhaellopez.hfrecyclerviewkotlin.HFRecyclerView
 import io.reactivex.Observable
 import io.reactivex.Observer

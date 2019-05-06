@@ -1,13 +1,13 @@
-package che.codes.posts.viewmodels
+package che.codes.posts.features.details
 
 import androidx.arch.core.executor.testing.InstantTaskExecutorRule
 import androidx.lifecycle.Observer
-import che.codes.posts.data.PostsDataSource
-import che.codes.posts.data.models.Comment
-import che.codes.posts.data.models.Post
-import che.codes.posts.data.models.User
+import che.codes.posts.core.data.PostsDataSource
+import che.codes.posts.core.data.models.Comment
+import che.codes.posts.core.data.models.Post
+import che.codes.posts.core.data.models.User
 import che.codes.posts.util.TrampolineSchedulerRule
-import che.codes.posts.viewmodels.PostDetailsViewModel.*
+import che.codes.posts.features.details.PostDetailsViewModel.*
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.mock
 import com.nhaarman.mockitokotlin2.verify
