@@ -1,7 +1,7 @@
-package che.codes.posts.data
+package che.codes.posts.core.data
 
-import che.codes.posts.data.models.Comment
-import che.codes.posts.data.models.Post
+import che.codes.posts.core.data.models.Comment
+import che.codes.posts.core.data.models.Post
 import io.reactivex.Single
 
 interface PostsDataSource {

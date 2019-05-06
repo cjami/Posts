@@ -1,4 +1,4 @@
-package che.codes.posts.data.models
+package che.codes.posts.core.data.models
 
 import android.os.Parcelable
 import kotlinx.android.parcel.Parcelize

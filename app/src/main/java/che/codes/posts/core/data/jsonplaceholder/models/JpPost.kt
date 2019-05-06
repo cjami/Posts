@@ -1,4 +1,4 @@
-package che.codes.posts.data.jsonplaceholder.models
+package che.codes.posts.core.data.jsonplaceholder.models
 
 data class JpPost(
     val userId: Long,

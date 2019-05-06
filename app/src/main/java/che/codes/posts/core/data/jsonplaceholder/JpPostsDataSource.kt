@@ -1,12 +1,12 @@
-package che.codes.posts.data.jsonplaceholder
+package che.codes.posts.core.data.jsonplaceholder
 
-import che.codes.posts.data.models.Comment
-import che.codes.posts.data.models.Post
-import che.codes.posts.data.PostsDataSource
-import che.codes.posts.data.jsonplaceholder.models.JpComment
-import che.codes.posts.data.jsonplaceholder.models.JpPost
-import che.codes.posts.data.jsonplaceholder.models.JpUser
-import che.codes.posts.data.models.User
+import che.codes.posts.core.data.models.Comment
+import che.codes.posts.core.data.models.Post
+import che.codes.posts.core.data.PostsDataSource
+import che.codes.posts.core.data.jsonplaceholder.models.JpComment
+import che.codes.posts.core.data.jsonplaceholder.models.JpPost
+import che.codes.posts.core.data.jsonplaceholder.models.JpUser
+import che.codes.posts.core.data.models.User
 import io.reactivex.Single
 
 class JpPostsDataSource(private val service: JpPostsService) : PostsDataSource {

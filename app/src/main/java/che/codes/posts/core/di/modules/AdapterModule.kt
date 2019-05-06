@@ -1,7 +1,7 @@
-package che.codes.posts.di.modules
+package che.codes.posts.core.di.modules
 
-import che.codes.posts.ui.adapters.CommentsAdapter
-import che.codes.posts.ui.adapters.PostsAdapter
+import che.codes.posts.features.details.CommentsAdapter
+import che.codes.posts.features.list.PostsAdapter
 import dagger.Module
 import dagger.Provides
 import javax.inject.Named

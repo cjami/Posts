@@ -1,8 +1,8 @@
-package che.codes.posts.di.components
+package che.codes.posts.core.di.components
 
-import che.codes.posts.di.modules.*
-import che.codes.posts.ui.activities.PostDetailsActivity
-import che.codes.posts.ui.activities.PostListActivity
+import che.codes.posts.core.di.modules.*
+import che.codes.posts.features.details.PostDetailsActivity
+import che.codes.posts.features.list.PostListActivity
 import dagger.Component
 import javax.inject.Singleton
 

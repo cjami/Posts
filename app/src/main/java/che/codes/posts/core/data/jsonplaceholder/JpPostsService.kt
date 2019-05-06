@@ -1,8 +1,8 @@
-package che.codes.posts.data.jsonplaceholder
+package che.codes.posts.core.data.jsonplaceholder
 
-import che.codes.posts.data.jsonplaceholder.models.JpComment
-import che.codes.posts.data.jsonplaceholder.models.JpPost
-import che.codes.posts.data.jsonplaceholder.models.JpUser
+import che.codes.posts.core.data.jsonplaceholder.models.JpComment
+import che.codes.posts.core.data.jsonplaceholder.models.JpPost
+import che.codes.posts.core.data.jsonplaceholder.models.JpUser
 import io.reactivex.Single
 import retrofit2.http.GET
 import retrofit2.http.Query

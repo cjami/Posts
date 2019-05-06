@@ -1,4 +1,4 @@
-package che.codes.posts.data.models
+package che.codes.posts.core.data.models
 
 data class Comment(
     val id: Long,

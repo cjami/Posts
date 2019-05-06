@@ -1,6 +1,6 @@
-package che.codes.posts.di.modules
+package che.codes.posts.core.di.modules
 
-import che.codes.posts.PostsApplication
+import che.codes.posts.core.PostsApplication
 import dagger.Module
 import dagger.Provides
 import okhttp3.Cache
