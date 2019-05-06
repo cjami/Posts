@@ -26,6 +26,6 @@
                 android:layout_height="wrap_content"
                 android:padding="10dp"
                 android:layout_toLeftOf="@id/author_image"
-                style="@style/CommentBodyText"/>
+                android:textAppearance="@style/CommentBodyText"/>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>

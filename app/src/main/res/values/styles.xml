@@ -6,20 +6,18 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:textColorPrimary">@color/text_primary</item>
+        <item name="fontFamily">@font/old_newspaper_font</item>
         <item name="android:navigationBarColor" tools:targetApi="21">@color/colorAccent</item>
     </style>
 
-    <style name="NormalText">
-        <item name="fontFamily">@font/old_newspaper_font</item>
-    </style>
+    <style name="BodyText" parent="TextAppearance.AppCompat.Body1"/>
 
-    <style name="BodyText" parent="NormalText"/>
-
-    <style name="TitleText" parent="NormalText">
+    <style name="TitleText" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textStyle">bold</item>
     </style>
 
-    <style name="CommentBodyText" parent="NormalText">
+    <style name="CommentBodyText" parent="TextAppearance.AppCompat.Body1">
         <item name="android:textStyle">italic</item>
     </style>
 

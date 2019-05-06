@@ -17,7 +17,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            style="@style/TitleText"/>
+            android:textAppearance="@style/TitleText"/>
 
     <androidx.cardview.widget.CardView
             android:layout_width="match_parent"
@@ -37,14 +37,14 @@
                     android:id="@+id/title"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    style="@style/TitleText"/>
+                    android:textAppearance="@style/TitleText"/>
 
             <TextView
                     android:id="@+id/body"
                     android:layout_width="match_parent"
                     android:layout_height="match_parent"
                     android:paddingTop="10dp"
-                    style="@style/BodyText"/>
+                    android:textAppearance="@style/BodyText"/>
         </LinearLayout>
     </androidx.cardview.widget.CardView>
 </LinearLayout>

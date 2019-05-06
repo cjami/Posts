@@ -29,7 +29,7 @@
                 android:textStyle="bold"
                 android:layout_alignTop="@id/author_image"
                 android:layout_toRightOf="@id/author_image"
-                style="@style/TitleText"/>
+                android:textAppearance="@style/TitleText"/>
 
         <TextView
                 android:id="@+id/body"
@@ -43,6 +43,6 @@
                 android:paddingTop="5dp"
                 android:lines="3"
                 android:ellipsize="end"
-                style="@style/BodyText"/>
+                android:textAppearance="@style/BodyText"/>
     </RelativeLayout>
 </androidx.cardview.widget.CardView>
