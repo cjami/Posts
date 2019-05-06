@@ -13,7 +13,7 @@ class JpPostsDataSource(private val service: JpPostsService) : PostsDataSource {
 
     override fun fetchPosts(): Single<List<Post>> {
         return service.getPosts().flatMap { jpPosts ->
-            service.getUsers(jpPosts.map { it.userId }).map { jpUsers -> createPosts(jpPosts, jpUsers) }
+            service.getUsers(jpPosts.map { it.userId }.distinct()).map { jpUsers -> createPosts(jpPosts, jpUsers) }
         }
     }
 
