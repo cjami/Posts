@@ -14,8 +14,8 @@ import androidx.test.espresso.intent.rule.IntentsTestRule
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
-import che.codes.posts.core.PostsApplication
 import che.codes.posts.R
+import che.codes.posts.core.PostsApplication
 import che.codes.posts.features.details.POST_KEY
 import che.codes.posts.features.details.PostDetailsActivity
 import che.codes.posts.util.DaggerTestAppComponent

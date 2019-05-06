@@ -1,4 +1,4 @@
-package che.codes.posts.util
+package che.codes.posts.core.ui.util
 
 import android.widget.ImageView
 import che.codes.posts.R

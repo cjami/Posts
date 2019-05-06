@@ -8,7 +8,7 @@ import che.codes.posts.R
 import che.codes.posts.core.data.models.Post
 import che.codes.posts.features.list.PostsAdapter.ViewHolder.HeaderViewHolder
 import che.codes.posts.features.list.PostsAdapter.ViewHolder.ItemViewHolder
-import che.codes.posts.util.AvatarLoader
+import che.codes.posts.core.ui.util.AvatarLoader
 import com.mikhaellopez.hfrecyclerviewkotlin.HFRecyclerView
 import io.reactivex.Observable
 import io.reactivex.Observer

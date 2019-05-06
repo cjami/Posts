@@ -11,7 +11,7 @@ import che.codes.posts.core.PostsApplication
 import che.codes.posts.R
 import che.codes.posts.core.data.models.Post
 import che.codes.posts.features.details.PostDetailsViewModel.FetchResult
-import che.codes.posts.core.ui.PostsViewModelFactory
+import che.codes.posts.core.viewmodel.PostsViewModelFactory
 import javax.inject.Inject
 
 const val POST_KEY = "POST_KEY"

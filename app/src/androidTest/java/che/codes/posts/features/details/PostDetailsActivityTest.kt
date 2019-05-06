@@ -8,8 +8,8 @@ import androidx.test.espresso.assertion.ViewAssertions.matches
 import androidx.test.espresso.matcher.ViewMatchers.*
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.rule.ActivityTestRule
-import che.codes.posts.core.PostsApplication
 import che.codes.posts.R
+import che.codes.posts.core.PostsApplication
 import che.codes.posts.core.data.models.Post
 import che.codes.posts.core.data.models.User
 import che.codes.posts.util.DaggerTestAppComponent

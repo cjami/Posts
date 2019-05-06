@@ -1,7 +1,7 @@
 package che.codes.posts.core.di.modules
 
 import che.codes.posts.core.data.PostsDataSource
-import che.codes.posts.core.ui.PostsViewModelFactory
+import che.codes.posts.core.viewmodel.PostsViewModelFactory
 import dagger.Module
 import dagger.Provides
 

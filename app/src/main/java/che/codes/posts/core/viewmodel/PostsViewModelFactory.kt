@@ -1,4 +1,4 @@
-package che.codes.posts.core.ui
+package che.codes.posts.core.viewmodel
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.ViewModelProvider

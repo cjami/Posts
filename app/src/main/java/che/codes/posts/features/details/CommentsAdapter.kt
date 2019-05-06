@@ -7,7 +7,7 @@ import androidx.recyclerview.widget.RecyclerView
 import che.codes.posts.R
 import che.codes.posts.core.data.models.Comment
 import che.codes.posts.core.data.models.Post
-import che.codes.posts.util.AvatarLoader
+import che.codes.posts.core.ui.util.AvatarLoader
 import com.mikhaellopez.hfrecyclerviewkotlin.HFRecyclerView
 import kotlinx.android.synthetic.main.activity_post_list.view.*
 import kotlinx.android.synthetic.main.header_post_details.view.*

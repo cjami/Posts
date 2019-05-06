@@ -12,41 +12,24 @@
   <component name="ChangeListManager">
     <list default="true" id="659ac837-0099-471e-afca-9f9d44a9c598" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/ui/activities/PostDetailsActivityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/details/PostDetailsActivityTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/ui/activities/PostListActivityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/list/PostListActivityTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/ui/util/MatcherUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/util/MatcherUtils.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/ui/util/TestAppComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/util/TestAppComponent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/ui/util/TestPropertyModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/util/TestPropertyModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/PostsApplication.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/PostsApplication.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/data/PostsDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/PostsDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/data/jsonplaceholder/JpPostsDataSource.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/jsonplaceholder/JpPostsDataSource.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/data/jsonplaceholder/JpPostsDummyService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/jsonplaceholder/JpPostsDummyService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/data/jsonplaceholder/JpPostsService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/jsonplaceholder/JpPostsService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/data/jsonplaceholder/models/JpComment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/jsonplaceholder/models/JpComment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/data/jsonplaceholder/models/JpPost.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/jsonplaceholder/models/JpPost.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/data/jsonplaceholder/models/JpUser.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/jsonplaceholder/models/JpUser.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/data/models/Comment.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/models/Comment.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/data/models/Post.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/models/Post.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/data/models/User.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/models/User.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/di/components/AppComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/components/AppComponent.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/di/modules/AdapterModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/modules/AdapterModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/di/modules/DataSourceModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/modules/DataSourceModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/di/modules/DummyDataSourceModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/modules/DummyDataSourceModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/di/modules/NetworkModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/modules/NetworkModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/di/modules/PropertyModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/modules/PropertyModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/di/modules/ViewModelFactoryModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/modules/ViewModelFactoryModule.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/ui/activities/PostDetailsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/details/PostDetailsActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/ui/activities/PostListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/list/PostListActivity.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/ui/adapters/CommentsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/details/CommentsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/ui/adapters/PostsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/list/PostsAdapter.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/ui/util/AvatarLoader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/util/AvatarLoader.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/viewmodels/PostDetailsViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/details/PostDetailsViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/viewmodels/PostListViewModel.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/list/PostListViewModel.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/viewmodels/PostsViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/ui/PostsViewModelFactory.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/che/codes/posts/data/jsonplaceholder/JpPostsDataSourceTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/che/codes/posts/core/data/jsonplaceholder/JpPostsDataSourceTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/che/codes/posts/viewmodels/PostDetailsViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/che/codes/posts/features/details/PostDetailsViewModelTest.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/src/test/java/che/codes/posts/viewmodels/PostListViewModelTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/che/codes/posts/features/list/PostListViewModelTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/che/codes/posts/core/di/components/DaggerAppComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/che/codes/posts/core/di/components/DaggerAppComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/che/codes/posts/core/di/modules/ViewModelFactoryModule_ProvidePostsViewModelFactoryFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/che/codes/posts/core/di/modules/ViewModelFactoryModule_ProvidePostsViewModelFactoryFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/che/codes/posts/features/details/PostDetailsActivity_MembersInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/che/codes/posts/features/details/PostDetailsActivity_MembersInjector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/che/codes/posts/features/list/PostListActivity_MembersInjector.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debug/che/codes/posts/features/list/PostListActivity_MembersInjector.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/build/generated/source/kapt/debugAndroidTest/che/codes/posts/util/DaggerTestAppComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/app/build/generated/source/kapt/debugAndroidTest/che/codes/posts/util/DaggerTestAppComponent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/details/PostDetailsActivityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/details/PostDetailsActivityTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/list/PostListActivityTest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/list/PostListActivityTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/util/MatcherUtils.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/util/MatcherUtils.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/util/TestAppComponent.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/util/TestAppComponent.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/util/TestPropertyModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/util/TestPropertyModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/modules/ViewModelFactoryModule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/modules/ViewModelFactoryModule.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/ui/PostsViewModelFactory.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/viewmodel/PostsViewModelFactory.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/details/CommentsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/details/CommentsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/details/PostDetailsActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/details/PostDetailsActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/list/PostListActivity.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/list/PostListActivity.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/list/PostsAdapter.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/list/PostsAdapter.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/util/AvatarLoader.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/ui/util/AvatarLoader.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/src/test/java/che/codes/posts/util/TrampolineSchedulerRule.kt" beforeDir="false" afterPath="$PROJECT_DIR$/app/src/test/java/che/codes/posts/util/TrampolineSchedulerRule.kt" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +81,7 @@
           <entry key="gradlew" value="1" />
           <entry key="java" value="12" />
           <entry key="json" value="13" />
-          <entry key="kt" value="406" />
+          <entry key="kt" value="410" />
           <entry key="properties" value="1" />
           <entry key="ttf" value="2" />
           <entry key="xml" value="87" />
@@ -110,7 +93,7 @@
           <entry key="Groovy" value="26" />
           <entry key="JAVA" value="12" />
           <entry key="JSON" value="13" />
-          <entry key="Kotlin" value="406" />
+          <entry key="Kotlin" value="410" />
           <entry key="PLAIN_TEXT" value="5" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="87" />
@@ -135,97 +118,33 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/details/PostDetailsActivity.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/details/PostDetailsActivityTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="47" column="9" selection-start-line="47" selection-start-column="9" selection-end-line="47" selection-end-column="9" />
+            <state relative-caret-position="357">
+              <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+              <folding>
+                <element signature="e#42#1026#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/list/PostListActivity.kt">
+        <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/list/PostListActivityTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="690">
-              <caret line="60" column="40" selection-start-line="60" selection-start-column="40" selection-end-line="60" selection-end-column="40" />
+            <state relative-caret-position="197">
+              <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-          <provider editor-type-id="android-manifest" />
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/styles.xml">
+        <entry file="file://$PROJECT_DIR$/app/src/test/java/che/codes/posts/features/details/PostDetailsViewModelTest.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="391">
-              <caret line="23" column="26" selection-start-line="23" selection-start-column="26" selection-end-line="23" selection-end-column="26" />
+            <state relative-caret-position="680">
+              <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/header_post_details.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="578">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/header_post_list.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="52" selection-start-line="8" selection-start-column="52" selection-end-line="8" selection-end-column="52" />
-              <folding>
-                <element signature="e#320#338#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_comment.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="17" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/strings.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/values/colors.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/row_post.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="597">
-              <caret line="42" column="40" selection-start-line="42" selection-start-column="40" selection-end-line="42" selection-end-column="40" />
-            </state>
-          </provider>
-          <provider editor-type-id="android-designer2" />
         </entry>
       </file>
     </leaf>
@@ -2707,8 +2626,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/app/src/test/java/che/codes/posts/ui/activities/PostListActivityTest.kt" />
-        <option value="$PROJECT_DIR$/app/src/test/java/che/codes/posts/ui/activities/PostListActivityTest.java" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/ui/activities/PostListActivityTest.java" />
         <option value="$PROJECT_DIR$/app/src/test/java/che/codes/posts/data/jsonplaceholder/JpPostsDataSourceTest.kt" />
         <option value="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/ui/util/EspressoMatchers.kt" />
@@ -2758,6 +2675,8 @@
         <option value="$PROJECT_DIR$/app/src/main/java/che/codes/posts/ui/activities/PostListActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/che/codes/posts/ui/list/PostListActivity.kt" />
         <option value="$PROJECT_DIR$/app/src/main/java/che/codes/posts/features/list/PostListActivity.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/details/PostDetailsActivityTest.kt" />
+        <option value="$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/list/PostListActivityTest.kt" />
       </list>
     </option>
   </component>
@@ -2822,7 +2741,7 @@
               <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+              <item name="androidTest" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
             <path>
               <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
@@ -2830,209 +2749,6 @@
               <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
               <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="jsonplaceholder" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="jsonplaceholder" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="data" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="models" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="di" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="di" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="components" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="di" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="modules" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="core" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="ui" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="features" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="features" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="details" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="features" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="list" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-            </path>
-            <path>
-              <item name="Posts" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
-              <item name="" type="442cc68d:ScopeViewTreeModel$RootNode" />
-              <item name="app" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="main" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="java" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="che" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="codes" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="posts" type="9f88c78c:ScopeViewTreeModel$FileNode" />
-              <item name="util" type="9f88c78c:ScopeViewTreeModel$FileNode" />
             </path>
           </expand>
           <select />
@@ -3074,11 +2790,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="che.codes.posts.core.viewmodel" />
+      <recent name="che.codes.posts.util" />
       <recent name="che.codes.posts.features.details" />
       <recent name="che.codes.posts.features.list" />
       <recent name="che.codes.posts.core" />
-      <recent name="che.codes.posts.ui" />
-      <recent name="che.codes.posts.ui.list" />
     </key>
     <key name="CreateTestDialog.RecentsKey">
       <recent name="che.codes.posts.ui.activities" />
@@ -3414,18 +3130,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="PostListActivityTest - 2019.04.25 at 14h 24m 12s.xml">
-      <configuration name="PostListActivityTest" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="PostListActivityTest - 2019.04.26 at 13h 44m 23s.xml">
-      <configuration name="PostListActivityTest" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
-    <history-entry file="java_in_app - 2019.04.26 at 13h 46m 46s.xml">
-      <configuration name="java in app" configurationId="AndroidJUnit" />
-    </history-entry>
-    <history-entry file="All_Tests - 2019.04.26 at 13h 47m 07s.xml">
-      <configuration name="All Tests" configurationId="AndroidTestRunConfigurationType" />
-    </history-entry>
     <history-entry file="java_in_app - 2019.05.01 at 16h 38m 23s.xml">
       <configuration name="java in app" configurationId="AndroidJUnit" />
     </history-entry>
@@ -3443,6 +3147,18 @@
     </history-entry>
     <history-entry file="All_Tests - 2019.05.06 at 20h 34m 12s.xml">
       <configuration name="All Tests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="All_Tests - 2019.05.06 at 22h 55m 06s.xml">
+      <configuration name="All Tests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="java_in_app - 2019.05.06 at 22h 55m 16s.xml">
+      <configuration name="java in app" configurationId="AndroidJUnit" />
+    </history-entry>
+    <history-entry file="All_Tests - 2019.05.06 at 23h 04m 22s.xml">
+      <configuration name="All Tests" configurationId="AndroidTestRunConfigurationType" />
+    </history-entry>
+    <history-entry file="java_in_app - 2019.05.06 at 23h 04m 46s.xml">
+      <configuration name="java in app" configurationId="AndroidJUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -3548,13 +3264,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/list/PostListActivityTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="167">
-          <caret line="135" column="39" selection-start-line="135" selection-start-column="39" selection-end-line="135" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/modules/DummyDataSourceModule.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -3574,14 +3283,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/components/AppComponent.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="21" column="1" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/che/codes/posts/util/AvatarLoader.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/ui/util/AvatarLoader.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="18" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
@@ -3632,13 +3334,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/details/PostDetailsActivityTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="58" column="92" lean-forward="true" selection-start-line="58" selection-start-column="92" selection-end-line="58" selection-end-column="92" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/data/PostsDataSource.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -3650,13 +3345,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
           <caret line="18" column="45" selection-start-line="18" selection-start-column="45" selection-end-line="18" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/test/java/che/codes/posts/features/details/PostDetailsViewModelTest.kt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-75">
-          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
         </state>
       </provider>
     </entry>
@@ -3737,7 +3425,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/ui/PostsViewModelFactory.kt">
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/viewmodel/PostsViewModelFactory.kt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="20" column="9" lean-forward="true" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
@@ -3886,7 +3574,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
       <provider editor-type-id="android-manifest" />
-      <provider selected="true" editor-type-id="text-editor" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="11" lean-forward="true" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/che/codes/posts/core/di/components/AppComponent.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="20" column="45" lean-forward="true" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/details/PostDetailsActivityTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="43" column="46" selection-start-line="43" selection-start-column="46" selection-end-line="43" selection-end-column="46" />
+          <folding>
+            <element signature="e#42#1026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/androidTest/java/che/codes/posts/features/list/PostListActivityTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="51" column="46" selection-start-line="51" selection-start-column="46" selection-end-line="51" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/test/java/che/codes/posts/features/details/PostDetailsViewModelTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="59" column="47" selection-start-line="59" selection-start-column="47" selection-end-line="59" selection-end-column="47" />
+        </state>
+      </provider>
     </entry>
   </component>
 </project>

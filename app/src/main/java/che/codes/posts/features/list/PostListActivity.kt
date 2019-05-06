@@ -16,7 +16,7 @@ import che.codes.posts.core.data.models.Post
 import che.codes.posts.features.details.POST_KEY
 import che.codes.posts.features.details.PostDetailsActivity
 import che.codes.posts.features.list.PostListViewModel.FetchResult
-import che.codes.posts.core.ui.PostsViewModelFactory
+import che.codes.posts.core.viewmodel.PostsViewModelFactory
 import io.reactivex.disposables.CompositeDisposable
 import javax.inject.Inject
 
