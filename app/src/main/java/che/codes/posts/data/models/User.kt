@@ -1,9 +1,11 @@
 package che.codes.posts.data.models
 
-import java.io.Serializable
+import android.os.Parcelable
+import kotlinx.android.parcel.Parcelize
 
+@Parcelize
 data class User(
     val id: Long,
     val username: String,
     val email: String
-) : Serializable
+) : Parcelable

@@ -35,7 +35,7 @@ class PostDetailsActivity : AppCompatActivity() {
 
         PostsApplication.instance.component.inject(this)
 
-        val post: Post? = intent.extras[POST_KEY] as Post?
+        val post: Post? = intent.extras?.getParcelable(POST_KEY) as Post?
 
         val viewModel = ViewModelProviders.of(this, viewModelFactory).get(PostDetailsViewModel::class.java)
         viewModel.result.observe(this, Observer<FetchResult> { result -> processResult(result) })
