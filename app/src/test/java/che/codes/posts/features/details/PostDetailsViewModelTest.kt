@@ -36,7 +36,7 @@ class PostDetailsViewModelTest {
     val schedulerRule = TrampolineSchedulerRule()
 
     @get:Rule
-    var thrown = ExpectedException.none()
+    var thrown: ExpectedException = ExpectedException.none()
 
     @Before
     fun setUp() {
