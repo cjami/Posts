@@ -12,9 +12,13 @@ import io.reactivex.Single
 class JpPostsDataSource(private val service: JpPostsService) : PostsDataSource {
 
     override fun fetchPosts(): Single<List<Post>> {
-        return service.getPosts().flatMap { jpPosts ->
-            service.getUsers(jpPosts.map { it.userId }.distinct()).map { jpUsers -> createPosts(jpPosts, jpUsers) }
-        }
+        return service.getPosts()
+            .flatMap { jpPosts ->
+                service.getUsers(jpPosts.map { it.userId }.distinct())
+                    .map { jpUsers ->
+                        createPosts(jpPosts, jpUsers)
+                    }
+            }
     }
 
     override fun fetchComments(postId: Long): Single<List<Comment>> {
