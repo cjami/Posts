@@ -1,11 +1,11 @@
 package che.codes.posts.core.data.jsonplaceholder
 
-import che.codes.posts.core.data.models.Comment
-import che.codes.posts.core.data.models.Post
 import che.codes.posts.core.data.PostsDataSource
 import che.codes.posts.core.data.jsonplaceholder.models.JpComment
 import che.codes.posts.core.data.jsonplaceholder.models.JpPost
 import che.codes.posts.core.data.jsonplaceholder.models.JpUser
+import che.codes.posts.core.data.models.Comment
+import che.codes.posts.core.data.models.Post
 import che.codes.posts.core.data.models.User
 import io.reactivex.Single
 
