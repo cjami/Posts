@@ -34,7 +34,6 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 import org.junit.runner.RunWith
-import java.util.concurrent.TimeUnit
 
 @RunWith(AndroidJUnit4::class)
 class PostListActivityTest {
@@ -138,7 +137,6 @@ class PostListActivityTest {
             .addHeader("Cache-Control", "no-cache")
             .setBody(body)
             .setResponseCode(code)
-            .throttleBody(1024, 100, TimeUnit.MILLISECONDS)
     }
 
     private fun getJsonFromFile(filename: String): String {
